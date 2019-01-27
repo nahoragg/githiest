@@ -19,7 +19,7 @@ def check_url(url):
 	#print(url)	
 	try:
 		r=requests.get(url, timeout=10)
-		if str(r.status_code)=='200' or str(r.status_code)=='403':
+		if str(r.status_code)=='200' and ".git" in r.url:
 			print(colored("Found .git dir on " + url + " ---->>> " + str(r.status_code),'green'))
 	except:
 		print(colored("Timeout ("+url+")",'red'))
