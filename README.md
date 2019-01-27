@@ -3,7 +3,7 @@ A Simple python tool to check the presence of .git in a list of urls. Just provi
 
 # Installation
 ```
-git clone <repo>
+git clone https://github.com/nahoragg/githiest.git
 ```
 
 # Usage
