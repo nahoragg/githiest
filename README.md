@@ -1,12 +1,12 @@
 # githiest
 A Simple python tool to check the presence of .git in a list of urls. Just provide it with a file containing URL's, domains, subdomains or IP's and it will take care of the rest. To make things faster, multiprocessing is used.
 
-#INSTALLATION
+# Installation
 ```
 git clone <repo>
 ```
 
-#USAGE
+# Usage
 ```
 python3 githiest.py <path to file>
 ```
